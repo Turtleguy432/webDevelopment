@@ -94,6 +94,8 @@ function lightMode() {
 	document.getElementById("h2_1").style.color = '#a72540';
 	document.getElementById("h2_2").style.color = '#a72540';
 	document.getElementById("Title").style.color = '#a72540';
+	document.getElementById("clock").style.color = '#a72540';
+	document.getElementById("clock").style.borderColor = '#eb3c48'
 	document.getElementById("content").style.backgroundColor = '#bcc4ce';
 	document.getElementById("bar1").style.color = '#eb3c48 ';
 	document.getElementById("bar2").style.color = '#eb3c48';
@@ -110,6 +112,8 @@ function darkMode() {
 	document.getElementById("h2_1").style.color = '#bcc4ce';
 	document.getElementById("h2_2").style.color = '#bcc4ce';
 	document.getElementById("Title").style.color = '#bcc4ce';
+	document.getElementById("clock").style.color = '#bcc4ce';
+	document.getElementById("clock").style.borderColor = '#082c6c';
 	document.getElementById("content").style.backgroundColor = '#444444';
 	document.getElementById("bar1").style.color = '#082c6c';
 	document.getElementById("bar2").style.color = '#082c6c';
@@ -127,6 +131,8 @@ function surprise() {
 	document.getElementById("h2_1").style.color = randColor();
 	document.getElementById("h2_2").style.color = randColor();
 	document.getElementById("Title").style.color = randColor();
+	document.getElementById("clock").style.color = randColor();
+	document.getElementById("clock").style.borderColor = randColor();
 	document.getElementById("content").style.backgroundColor = randColor();
 	document.getElementById("bar1").style.color = randColor();
 	document.getElementById("bar2").style.color = randColor();
@@ -136,5 +142,79 @@ function surprise() {
 	document.getElementById("run").style.backgroundColor = randColor();
 	document.getElementById("surprise").style.backgroundColor = randColor();
 
+}
+
+/*
+  function hexadecimalAlph() {
+  	
+
+
+
+
+  }
+
+  function getAlphaHexval() { 
+
+
+  }
+*/
+
+
+
+
+
+
+
+
+
+setInterval(showClock, 1000);
+
+function DOM(desiredElement) {
+	return document.querySelector(desiredElement)
+}
+
+function showClock() {
+	let clockContent = new Date();
+	let month = clockContent.getMonth();
+	let dayOfMonth = clockContent.getDate();
+	let year = clockContent.getFullYear();
+	let hour = clockContent.getHours();
+	let dateContent = new Date(year, month, dayOfMonth);
+	let date = clockContent.toDateString();
+	let minute = clockContent.getMinutes();
+	let second = clockContent.getSeconds();
+
+	let amOrPm = "AM";
+
+		if (hour > 12) {
+			hour -= 12;
+			amOrPm = "PM";
+
+		}
+
+		if ( hour == 0) {
+			hour = 12;
+			amOrPm = "AM";
+		}
+
+		if (hour < 10) {
+			hour = "0" + hour;
+		}
+
+		if (minute < 10) {
+			minute = "0" + minute;
+		}
+		if (second < 10) {
+			second = "0" + second;
+		}
+	let currentTime = date + " " + hour + ":" + minute + ":" + second + " " + amOrPm;
+
+	DOM('#clock').innerText = currentTime;
+}
+
+function eightBall(img) {
+	let response = Math.floor(Math.random() * 12);
+	response = "balls\\" + "ball" + response +".jpg";
+	document.getElementById('ball').src = response;
 }
 

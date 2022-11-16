@@ -1,10 +1,24 @@
-p, h1, h2, h3, h4{
+h1, h2, h3, h4 {
 	text-align: center;
 }
-div{
-	padding-bottom: 1000px;
+#clock{
+	font-size: 15pt;
+	border-style: double;
+	border-color: red;
+	text-align: center;
+	border-width: 3px;
+}
+#clockBox{
+	padding: 10px auto 10px;
+	width: 15vw;
+	height: auto;
+	margin-left: 42.4vw;
+
 }
 
+#content {
+	padding-bottom: 100vh;
+}
 body{
 	background-color: darkgray;
 	margin: 0 0 0 0;
@@ -14,9 +28,6 @@ body{
 }
 button {
 	margin-left: 20.8vw;
-}
-section {
-	margin: 10px 30vw 10px 30vw;
 }
 hr{
 	width: 90vw;

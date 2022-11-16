@@ -7,12 +7,15 @@
 	<link rel="stylesheet" type="text/css" href="CSS/layout.css">
 	<script src="jss/study.js" type="text/JavaScript"></script>
 </head>
-<body id ="all">
+<body>
 <div id = "content">
 <h1 id = "Title">JavaScript Test Page</h1>
+<div id = "clockBox">
+<p id = "clock">Loading...</p>
+</div>
 <hr id = "bar1">
-<button id = "darkMode" onclick="darkMode()">Dark Mode</button>
-<button id = "lightMode" onclick="lightMode()">Light Mode</button>
+<button id = "darkMode" onclick="lightMode()">Light Mode</button>
+<button id = "lightMode" onclick="darkMode()">Dark Mode</button>
 <button id = "surprise" onclick="surprise()">Surprise Me!!</button>
 <h2 id = "h2_1">Selection Sort goes here</h2>
 <h3 id = "selection"> ___</h3>
@@ -21,6 +24,15 @@
 <h3 id = "insertion">___</h3>
 <hr id = "bar3">
 <button id = "run" onClick="run();">Run</button>
-</div>
+<hr>
+<h2 id="above8Ball">Magic 8Ball</h2>
+<p>Enter your Question below, and click the 8 Ball to ask your question</p>
+<label id="" for="8ballQuestion">
+<input type="text" name="8ballQuestion">
+</label>
+<button onclick='eightBall(ball)' >
+	<img id="ball" src="balls\Default.jpg">
+</button>
+</div>	
 </body>
 </html>

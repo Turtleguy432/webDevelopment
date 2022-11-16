@@ -1,0 +1,28 @@
+p, h1, h2, h3, h4{
+	text-align: center;
+}
+div{
+	padding-bottom: 1000px;
+}
+
+body{
+	background-color: darkgray;
+	margin: 0 0 0 0;
+}
+#Title{
+	margin: 0 0 0 0;
+}
+button {
+	margin-left: 20.8vw;
+}
+section {
+	margin: 10px 30vw 10px 30vw;
+}
+hr{
+	width: 90vw;
+	color: red;
+}
+
+#run {
+	margin-left: 48.69vw;
+}

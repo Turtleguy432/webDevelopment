@@ -1,5 +1,5 @@
-h1, h2, h3, h4 {
-	text-align: center;
+#Title {
+	margin: 0 0 0 0;
 }
 #clock{
 	font-size: 15pt;
@@ -16,24 +16,40 @@ h1, h2, h3, h4 {
 
 }
 
-#content {
-	padding-bottom: 100vh;
-}
 body{
 	background-color: darkgray;
 	margin: 0 0 0 0;
 }
-#Title{
-	margin: 0 0 0 0;
-}
-button {
-	margin-left: 20.8vw;
-}
-hr{
-	width: 90vw;
-	color: red;
+
+h1, h2, h3, h4 {
+	text-align: center;
 }
 
+.colorThemes {
+	margin-left: 20.8vw;
+}
+p {
+	text-align: center;
+}
 #run {
 	margin-left: 48.69vw;
+}
+#imgButtons{
+	margin: 10px 40vw;
+}
+#question{
+	margin: 15px 43.5vw 15px ;
+}
+#getQuote{
+	margin: 15px 47vw 15px;
+
+}
+.form{
+	margin-left: 38vw;
+}
+h5 {
+	margin-left: 8vw;
+}
+input {
+	margin-left: 5vw;
 }

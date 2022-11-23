@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Javascript
+	</title>
+	<link rel="stylesheet" type="text/css" href = "CSS/pageLayout.css">
+	<link id = "colorSheet" rel="stylesheet" type="text/css" href = "CSS/pageLayout.css">
+	<script src="jss/study.js" type="text/JavaScript"></script>
+</head>
+<body>
+	<h1 class = "sectionHeaders">
+		JavaScript Test Page
+	</h1>
+	<div id = "clockBox">
+		<p id = "clock">
+			Loading...
+		</p>
+	</div>
+	<section id = "content">
+		<hr class = "bar">
+		<button class= "colorThemes" onclick="lightMode()">
+			Light Mode
+		</button>
+		<button class = "colorThemes" onclick="darkMode()">
+			Dark Mode
+		</button>
+		<button class = "colorThemes" onclick="surprise()">
+			Surprise Me!!
+		</button>
+		<h2 class = "sectionHeaders">
+			Unsorted Array goes here
+		</h2>
+		<h3 id = 'unsortedSelection'>
+			___<br>
+		</h3>
+		<h2 class = "sectionHeaders">
+			Selection Sort goes here
+		</h2>
+		<h3 class = "sectionContent" id = "selection">
+			___
+		</h3>
+		<hr class = "bar">
+		<h2 class = "sectionHeaders">
+			Unsorted Array goes here
+		</h2>
+		<h3 id = 'unsortedInsertion'>
+			___
+		</h3>
+		<h2 class = "sectionHeaders">
+			Insertion Sort goes here
+		</h2>
+		<h3 class = "sectionContent" id = "insertion">
+			___
+		</h3>
+		<hr class = "bar">
+		<button id = "run" onClick="run();">
+			Run
+		</button>
+		<hr class = "bar">
+		<h2 class = "sectionHeaders">
+			Magic 8Ball
+		</h2>
+		<p>
+			Enter your Question below, and click the 8 Ball to ask your question
+		</p>
+			<button id = "imgButtons" onclick = 'eightBall(ball)'>
+			<img id = "ball" src = "balls\Default.jpg"><br>
+		</button>
+		<br>
+		<label  for = "8ballQuestion">
+			<input id = 'question' type = "text" name = "8ballQuestion">
+		</label>
+		</section>
+		<hr class = "bar">
+		<h1 id = "sectionHeaders">Quote Generator</h1>
+		<div>
+			<h2 id = 'quoteBox'>
+				Quote goes Here
+			</h2>
+			<button id='getQuote' onclick="randQuote()">
+				Click me for quote
+			</button>
+		<hr>
+		<h1 id = "sectionHeaders">
+			Number guessing game
+		</h1>
+    	<p>
+    		A random number between 1 and 100 was generated, Try to guess it in 10 attempts. Input the number of your guess and click the submit button.
+    	</p>
+
+    	<div class="form">
+	    	<label for="playerGuess">
+	    		<h5>
+	    			Enter a guess:
+	    		</h5>
+   			<input type="number" min="1" max="100" required id="playerGuess" class="guessField">
+	  		</label>
+	  		<button onclick="numGame()">Check</button>
+   		</div>
+  		<div id="score">
+    		<p id="lastResult"></p>
+    		<p id="lowOrHi"></p>
+    	</div>
+</body>
+</html>

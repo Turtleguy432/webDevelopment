@@ -1,0 +1,55 @@
+#Title {
+	margin: 0 0 0 0;
+}
+#clock{
+	font-size: 15pt;
+	border-style: double;
+	border-color: red;
+	text-align: center;
+	border-width: 3px;
+}
+#clockBox{
+	padding: 10px auto 10px;
+	width: 15vw;
+	height: auto;
+	margin-left: 42.4vw;
+
+}
+
+body{
+	background-color: darkgray;
+	margin: 0 0 0 0;
+}
+
+h1, h2, h3, h4 {
+	text-align: center;
+}
+
+.colorThemes {
+	margin-left: 20.8vw;
+}
+p {
+	text-align: center;
+}
+#run {
+	margin-left: 48.69vw;
+}
+#imgButtons{
+	margin: 10px 40vw;
+}
+#question{
+	margin: 15px 43.5vw 15px ;
+}
+#getQuote{
+	margin: 15px 47vw 15px;
+
+}
+.form{
+	margin-left: 38vw;
+}
+h5 {
+	margin-left: 8vw;
+}
+input {
+	margin-left: 5vw;
+}

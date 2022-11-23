@@ -1,0 +1,18 @@
+body {
+	background-color: #bcc4ce;
+}
+.sectionHeaders, h1, h2, h5 {
+	color: #a72540;
+}
+.sectionContent {
+	color: #f72635	;
+}
+.bar{
+	color: #eb3c48;
+}
+button, input, label{
+	background-color: #bcc4ce;
+}
+p {
+	color: #f72635;
+}

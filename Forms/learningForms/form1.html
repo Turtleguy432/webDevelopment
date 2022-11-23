@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Feedback Form</title>
+	<link href="styles.css" rel="stylesheet" >
+</head>
+<body>
+<div class="formWrapper" id="container">
+	<div class="	" id="topofPage">
+		<h1>Website Survey Form</h1>
+	</div>
+	<form id="form-1" class="form1" href="" method="post">
+		<fieldset class="persInfo" id="persInfo">
+			<legend class="persInfoLeg" id="persInfoLeg">Personal Information</legend>
+				<label class="personalInfo" for="firstName">First name: 
+					<input class="textbox-1" id="firstName" name="firstName" type="text" required>
+				</label>
+				<label class="personalInfo" for="lastName">Last name:
+					<input class="textbox-2" id="lastName" name="lastName" type="text" required>
+				</label>
+				<label class="personalInfo" for="email">Email:
+					<input class="email" id="email" type="email" name="email" required>
+				</label>
+				<label class="personalInfo" id="ageLabel" for="age">Age:
+					<input class="age" id="age" type="number" name="age" min="13" required>
+				</label>
+		</fieldset>
+		<fieldset class="feedback" id="feedback">
+			<legend class="" id="">Feedback</legend>
+			<section class="" id="">
+			<p>	Is the Font readable? </p>
+				<label class="" id="" for="fontReadable-Yes">
+					<input class="radio" id="fontReadable-Yes" type="radio" name="fontReadable" value="yes"> Yes
+				</label>
+				<label class="" id="" for="fontReadable-No">
+					<input class="radio" id="fontReadable-No" type="radio" name="fontReadable" value="no"> No
+				</label>
+			</section>
+			<section class="" id="">
+				<p class="" id="">Do you like the Color Scheme? </p>
+					<label class="" id="" for="like-Scheme-Yes">
+						<input class="radio" id="like-Scheme-Yes" type="radio" name="like-Scheme" value="yes"> Yes
+					</label>
+					<label class="" id="" for="like-Scheme-No">
+						<input class="radio" id="like-Scheme-No" type="radio" name="like-Scheme" value="no"> No 
+					</label>
+			</section>
+			<section class="" id="">
+				<p class="" id=""> Are you on a mobile device?</p>
+					<label class="" id="" for="useMobile-Yes">
+						<input class="" id="useMobile-Yes" type="radio" name="useMobile" value="yes"> Yes
+					</label>
+					<label class="" id="" for="useMobile-No">
+						<input class="" id="useMobile-No" type="radio" name="useMobile" value="no"> No
+					</label>
+			</section>
+			<section class="" id="">
+				<p class="" id="">	Which mobile device did you use? </p>
+					<label class="" id="" for="whichMobile-Apple">
+						<input class="" id="whichMobile-Apple" type="radio" name="whichMobile" value="whichMobile-Apple"> Apple
+					</label>
+					<label class="" id="" for="whichMobile-android">
+						<input class="" id="whichMobile-android" type="radio" name="whichMobile" value="whichMobile-android"> Android
+					</label>
+					<label class="" id="" for="whichMobile-Not-Applicable">
+						<input class="" id="whichMobile-Not-Applicable" type="radio" name="whichMobile" value="whichMobile"> Not on Mobile
+					</label>
+			</section>
+			<section class="" id="">
+				<p class="" id="">		Would you reccomend this site to a friend?</p>
+				<label class="" id="" for="siteReccomend-Yes">
+					<input class="" id="siteReccomend-Yes" type="radio" name="siteReccomend" value="yes"> Yes
+				</label>
+				<label class="" id="" for="siteReccomend-No">
+					<input class="" id="siteReccomend-No" type="radio" name="siteReccomend" value="no"> No 
+				</label>
+			</section>
+			<hr class="" id="">
+			<section class="" id="">
+			<p>	What colors do you like? Check all that apply:</p>
+				<label class="" id="" for="blue">
+					<input class="" id="blue" type="checkbox" name="color" value="blue">Blue
+				</label>
+				<label class="" id="" for="red">
+					<input class="" id="red" type="checkbox" name="color" value="red">Red
+				</label>
+				<label class="" id="" for="yellow">
+					<input class="" id="yellow" type="checkbox" name="color" value="yellow">Yellow
+				</label>
+				<label class="" id="" for="orange">
+					<input class="" id="orange" type="checkbox" name="color" value="orange">Orange
+				</label>
+				<label class="" id="" for="purple">
+					<input class="" id="purple" type="checkbox" name="color" value="purple">Purple
+				</label>
+			</section>
+			<section class="" id="">
+				<p class="" id="">Which browsers do you use?</p>
+				<label class="" id="" for="chrome">
+					<input class="" id="chrome" type="checkbox" name="browser" value="chrome"> Chrome
+				</label>
+				<label class="" id="" for="firefox">
+					<input class="" id="firefox" type="checkbox" name="browser" value="firefox"> Firefox
+				</label>
+				<label class="" id="" for="operaGX">
+					<input class="" id="operaGX" type="checkbox" name="browser" value="operaGX"> Opera GX
+				</label>
+				<label class="" id="" for="edge">
+					<input class="" id="edge" type="checkbox" name="browser" value="edge"> Microsoft Edge
+				</label>
+			</section>
+			<section class="" id="">
+				<p> Which operating systems do you use most?</p>
+				<label class="" id="" for="windows10">
+					<input class="" id="Windows10" type="checkbox" name="os" value="windows10">Windows 10
+				</label>		
+				<label class="" id="" for="windows11">
+					<input class="" id="windows11" type="checkbox" name="os" value="windows11">Windows 11
+				</label>
+				<label class="" id="" for="IOS">
+					<input class="" id="IOS" type="checkbox" name="os" value="IOS">IOS
+				</label>
+				<label class="" id="c" for="mac">
+					<input class="" id="mac" type="checkbox" name="os" value="mac">MacOS
+				</label>
+				<label class="" id="" for="android">
+					<input class="" id="android" type="checkbox" name="os" value="android">Android
+				</label>
+				<label class="" id="" for="linux">
+					<input class="" id="linux" type="checkbox" name="os" value="linux">Linux
+				</label>
+			</section>
+				<hr>
+			<section class="" id="">
+				How do you prefer to access the internet? 
+				<label class="" id="" for="platformSelect">
+					<select class="" id="platform" name="platformSelect">
+						<option class="" id="" value="">(Select One)</option>
+						<option class="" id="" value="tablet">Tablet</option>
+						<option class="" id="" value="mobilePhone">Mobile Phone</option>
+						<option class="" id="" value="laptop">Laptop</option>
+						<option class="" id="" value="desktop">Desktop</option>
+					</select>
+				</label>
+			</section>
+			<section>
+				How difficult was using this website on your device? 	
+				<label class="" id="" for="rating">
+					<select class="" id="" name="rating">
+						<option class="" id="" value="">(Select One)</option>
+						<option class="" id="" value="veryEasy">Very easy</option>
+						<option class="" id="" value="easy">Easy</option>
+						<option class="" id="" value="OK">OK</option>
+						<option class="" id="" value="hard">Hard</option>
+						<option class="" id="" value="veryHard">Very Hard</option>
+					</select>			
+			</section>
+			<hr>
+			<section>
+				<p>Additional Feedback</p>
+				<label class="" id="" for="textArea">
+					<textarea class="" id="" name="textArea" maxlength="500"></textarea>
+				</label>
+			</section>
+		</fieldset>
+	</form>
+	<div class="" id="botofPage">
+	<label	class="" id="" for="TOS">
+			<input class="" id="terms" type="checkbox" name="TOS" required>I accept the <a href="">Terms and Conditions</a>				
+	</label>
+	<button class="submitButton" id="submitButton" type="submit">Submit</button>
+</div>
+</label>
+</body>
+</html>

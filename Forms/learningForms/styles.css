@@ -1,0 +1,90 @@
+#container{
+	margin: 25px auto 0 auto;
+	width:  40vw;
+	height: auto;
+	min-width: 250px;
+	background: lavender;
+	padding-bottom: 1vh;
+	}
+button{
+	display: block;
+	margin: 5px auto 1vh auto;
+}
+.topofPage{
+	text-emphasis: circle;
+	text-align: center;
+	color: coral;
+	margin: 10px;
+	text-align: center;
+	padding: 15px;
+	background: lavender;
+	border-style: outset;
+	border-color: midnightblue;
+}
+h1{
+	text-align: 	center;
+	padding-top: 20px;
+	padding-bottom: -10px;
+	color: 	midnightblue;
+}
+.personalInfo{
+	display: block;
+	margin: 0 0 0 0;
+	width: 90%;
+	padding: 30px auto 10px auto;
+}	
+body{
+	font-family: georgia;
+	background: linear-gradient(lightblue, purple);
+	
+}
+div{
+	padding: 0 3vw 0 3vw;
+}
+#feedback{
+	width: 38vw;
+	min-width: 366px;
+	height: auto;
+	color: 	midnightblue;
+	margin-top: 10px;
+	padding: 0 0 0 1.4vw;
+	max-width: 520px;
+}
+textarea{
+	margin-bottom: 1vh;
+	width: 20vw;
+	height: 10vh;
+}
+#persInfo{
+	color: 	midnightblue;
+	width: 37.6vw;
+	padding-right: -50px;
+}
+#botofPage{
+	margin: 0.5vh auto 0.5vh auto;
+	color: midnightblue;
+	text-align: center;
+}
+#rating {
+	display: block;
+}
+#form-1{
+	padding-bottom: -5px;
+}
+#TOS {
+	padding-bottom: 1vh;
+}
+#firstName, #lastName, #email{
+	width: 95%;
+}
+#age{
+	display: block;
+	margin-top: 1vh;
+	max-width: 5vw;
+}
+.radio{
+	margin-top: .5vh;
+}
+text{
+	padding-bottom: 10px;
+}

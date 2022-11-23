@@ -1,0 +1,113 @@
+body {
+	margin: 10px auto 10px auto;
+	background-color: white;
+	font-family: sans-serif;
+}
+#title {
+	margin: auto auto auto auto;
+	display: inline-block;
+	float: right;
+	margin-right: 56vw;
+	font-size: 24pt;
+	margin-top: 44px;
+	color: red
+}
+img {
+	width: 15vw;
+	display: inline;
+	height: auto;
+}
+#topOfPage{
+	background-color: white;
+	border-color: white white darkgrey white;
+	border-bottom: 1px
+}
+text{
+	margin-bottom: 1em;
+}
+.persInfo {
+	border: 1px 1px 1px 1px;
+	border-color: darkgray;
+	margin-top: 10px;
+	width: 80vw;
+	height: auto;
+	max-width: 1900px;
+	display: block;
+	font-size: 16pt;
+}
+#firstName, #lastName, #phoneNum, #email, #password {
+	max-width: 850px;
+	min-width: 20px;
+	display: block;
+	height: auto;
+	width: 40vw;
+	font-size: 16pt;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+input[type="text"]{
+	height: 30px;
+}
+input[type="password"]{
+	height: 30px;
+	width: 20vw;
+}
+input[type="number"]{
+	height: 30px;
+	margin-top: 10px;
+}
+#age {
+	display: block;
+	width: 4vw;
+	min-width: 80px;
+	font-size: 16pt;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#feedback{
+	width: 80vw;
+	display: block;
+	max-width: 1900px;
+	font-size: 16pt;
+	height: auto;
+	margin-top: 20px;
+	border-color: darkgray
+}
+
+#platformLabel{
+	margin-top: 1em;
+}
+footer{
+	font-family: woff2;
+	color: #C4C4A3;
+	background-color: #191919;
+
+}
+#platform{
+	height: 12vh;
+	font-size: 13pt;
+	min-height: 22px;
+	max-height: 40px;
+	width: 12vw;
+	max-width: 500px;
+	margin-bottom: 5vh;
+	margin-top: 3vh;
+	display: block;
+	min-width: 136px;
+}
+input[type="radio"]{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#text4stlye{
+ padding: 0 0 0 0;
+	width: 40vw;
+	height: 30vh;
+	margin-bottom: 8px;
+	overflow: hidden;
+}
+#formContent{
+	margin-left: 6vw;
+	max-width: 1000px;
+	
+}
